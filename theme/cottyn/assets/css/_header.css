@@ -235,7 +235,7 @@ nav.main-nav > ul > li.menu-item-has-children > a:before{
     top: 2px;
     right: 0;
     content: "";
-    background-image: url('../images/black-btm-arrow.svg');
+    /*background-image: url('../images/black-btm-arrow.svg');*/
     width: 12px;
     height: 8px;
     background-repeat: no-repeat;
