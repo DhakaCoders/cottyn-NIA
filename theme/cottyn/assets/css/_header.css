@@ -127,8 +127,28 @@ nav.main-nav > ul > li > a:hover {
     position: relative;
     top: 0;
     right: 0;
+    z-index: 11;
 }
 
+.fl-lang-cntlr:after {
+    background-image: url('../images/lang-arrow.svg');
+    background-repeat: no-repeat;
+    content: "";
+    width: 11px;
+    height: 7px;
+    background-size: contain;
+    padding-right: 0;
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    z-index: 21;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.hdr-lang-cntlr:hover .fl-lang-cntlr:after{
+    transform: rotate(180deg);
+}
 .fl-lang {
     display: flex;
     align-items: center;
@@ -168,6 +188,10 @@ nav.main-nav > ul > li > a:hover {
 .fl-lang-cntlr ul li.lang-active {
     opacity: 1;
     position: relative;
+}
+.hdr-lang-cntlr:hover ul li {
+    position: relative;
+    opacity: 1;
 }
 .fl-lang-cntlr ul {
     border: 2px solid #ECECEC;
