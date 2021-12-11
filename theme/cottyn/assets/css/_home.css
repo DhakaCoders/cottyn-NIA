@@ -1,0 +1,80 @@
+.hm-banner{
+	position: relative;
+}
+.hm-banner-img {
+    height: 100%;
+    width: 100%;
+    border-radius: 0px 0px 286.5px 0px;
+}
+
+.hm-banner-lft-img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 50%;
+    z-index:2;
+}
+.hm-banner-wrap {
+    /*padding-bottom: 50px;*/
+    background: #002544;
+    /*padding-top: 50px;*/
+    height: 100%;
+    position: relative;
+
+}
+.hm-banner .container,
+.hm-banner .row,
+.hm-banner .col-md-6{
+	height: 100%;
+}
+.hm-banner {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 672px;
+    background: #fff;
+}
+/*.hm-banner-des-cntlr{
+	height:579px;
+}*/
+.hm-banner-des-cntlr h1{
+	color: #fff;
+	line-height:1.13;
+}
+.hm-banner-des-cntlr h1 span{
+	color: #0084A9;
+}
+.hm-banner-des-cntlr p{
+	color:#fff;
+}
+.hm-banner-des-cntlr {
+    padding-left: 75px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+}
+.hm-bnr-btn a:not(:last-child) {
+    margin-right: 18px;
+}
+.hm-bnr-des {
+    padding-bottom: 15px;
+}
+.hm-bnr-btn a {
+    min-width: 180px;
+}
+.hm-bnr-bg-ef-1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 500px;
+}
+.hm-bnr-bg-2 {
+    position: absolute;
+    left: -113px;
+    top: 33px;
+    max-width: 149px;
+}
