@@ -74,15 +74,19 @@ nav.main-nav > ul {
 nav.main-nav > ul > li {
     padding-left: 30px;
     padding-right: 30px;
+    position: relative;
 }
 
 nav.main-nav > ul > li > a {
-    display: inline-block;
-    vertical-align: baseline;
+
     font-size: 16px;
     font-weight: 600;
     line-height: 1;
+}
+nav.main-nav  ul  li a{
     text-decoration: none;
+    display: inline-block;
+    vertical-align: baseline;
 }
 nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a:hover,
 .top-hdr-menu-nav ul li a:hover{
@@ -211,4 +215,111 @@ nav.main-nav > ul > li > a:hover {
 }
 .menu-rgt {
     display: flex;
+}
+
+
+
+
+
+
+nav.main-nav > ul > li.current-menu-item:after,
+nav.main-nav > ul > li:hover:after{
+    opacity: 1;
+    z-index: 12;
+}
+nav.main-nav > ul > li.menu-item-has-children a{
+    padding-right: 20px;
+}
+nav.main-nav > ul > li.menu-item-has-children > a:before{
+    position: absolute;
+    top: 2px;
+    right: 0;
+    content: "";
+    background-image: url('../images/black-btm-arrow.svg');
+    width: 12px;
+    height: 8px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+nav.main-nav > ul > li.menu-item-has-children:hover > a:before {
+    transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+}
+
+nav.main-nav > ul > li > a{
+    padding-bottom: 15px;
+}
+nav.main-nav > ul > li.current-menu-item a{
+    color: #4F7F35;
+}
+
+
+
+nav.main-nav > ul > li.menu-item-has-children ul.sub-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    z-index: -9999;
+    width: 200px;
+    padding: 0;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transform: scale3d(1,0,1);
+    -ms-transform: scale3d(1,0,1);
+    -webkit-transform: scale3d(1,0,1);
+    -o-transform: scale3d(1,0,1);
+    transform-origin: top;
+    opacity: 0;
+    box-shadow: 0 2px 12px 0 rgb(0 0 0 / 15%);
+    -ms-box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.15%);
+    -webkit-box-shadow: 0 2px 12px 0 rgb(0 0 0 / 15%);
+}
+nav.main-nav > ul > li.menu-item-has-children:hover ul.sub-menu {
+    transform: scale3d(1,1,1);
+    -ms-transform: scale3d(1,1,1);
+    -webkit-transform: scale3d(1,1,1);
+    -o-transform: scale3d(1,1,1);
+    opacity: 1;
+    visibility: visible;
+    z-index: 9999;
+}
+nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li {
+    border-bottom: 1px solid #4F7F35;
+    position: relative;
+}
+nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:last-child{
+    border-bottom: 0;
+}
+nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a {
+    font-size: 14px;
+    display: block;
+    padding: 10px 19px;
+    line-height: 1;
+}
+nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a:hover{
+    color: #4F7F35;
+}
+nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:after {
+    position: absolute;
+    content: '';
+    background: #4F7F35;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 2px;
+    height: 0;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+nav.main-nav > ul > li.menu-item-has-children ul.sub-menu > li:hover:after {
+    height: 100%;
 }
