@@ -292,7 +292,7 @@ nav.main-nav > ul > li.menu-item-has-children:hover ul.sub-menu {
     z-index: 9999;
 }
 nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li {
-    border-bottom: 1px solid #2E3044;
+    border-bottom: 1px solid #0084A9;
     position: relative;
 }
 nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:last-child{
@@ -303,15 +303,15 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a {
     display: block;
     padding: 10px 19px;
     line-height: 1;
-    color:#2E3044!important;
+    color:#2E3044;
 }
 nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a:hover{
-    color: #4F7F35;
+    color: #0084A9;
 }
 nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li:after {
     position: absolute;
     content: '';
-    background: #2E3044;
+    background: #0084A9;
     top: 0;
     left: 0;
     bottom: 0;
