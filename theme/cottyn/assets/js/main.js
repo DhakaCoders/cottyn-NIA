@@ -372,9 +372,9 @@ if( $('.xs-page-entry-menu').length ){
       }
     }
     bannerheight();
-    // $(window).resize(function(){
-    //   bannerheight();
-    // });
+    $(window).resize(function(){
+      bannerheight();
+    });
   
   if( $('.hmBnrSlider').length ){
     $('.hmBnrSlider').slick({

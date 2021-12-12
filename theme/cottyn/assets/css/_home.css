@@ -32,12 +32,10 @@
 .hm-banner {
     padding-top: 30px;
     padding-bottom: 30px;
-    height: 672px;
+    min-height: 425px;
     background: #fff;
 }
-/*.hm-banner-des-cntlr{
-	height:579px;
-}*/
+
 .hm-banner-des-cntlr h1{
 	color: #fff;
 	line-height:1.13;
@@ -77,4 +75,38 @@
     left: -113px;
     top: 33px;
     max-width: 149px;
+}
+
+
+
+
+
+/*dft-two-des-module*/
+
+.dfp-two-des-module {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 110px;
+    padding-bottom: 70px;
+}
+.dfp-two-des-col {
+    width: 50%;
+}
+.dft-two-des-title-cntlr {
+    padding-right: 40px;
+}
+.dft-tow-des-title{
+    line-height:1.4;
+}
+.dft-tow-des-title span{
+    color:#0084A9;
+}
+.dfp-two-des p {
+    margin-bottom: 30px;
+}
+.dfp-two-des p strong{
+    color: #616268;
+}
+.dfp-two-des {
+    padding-top: 5px;
 }

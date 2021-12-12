@@ -27,7 +27,7 @@
 .top-hdr-menu-nav ul li a {
     font-weight: 400;
     color: #2E3044;
-    font-size: 13px;
+    font-size: 14px;
     letter-spacing: -0.02em;
     text-decoration: none;
     display: inline-block;
@@ -87,6 +87,7 @@ nav.main-nav  ul  li a{
     text-decoration: none;
     display: inline-block;
     vertical-align: baseline;
+    text-transform: capitalize;
 }
 nav.main-nav > ul > li.menu-item-has-children ul.sub-menu li a:hover,
 .top-hdr-menu-nav ul li a:hover{
