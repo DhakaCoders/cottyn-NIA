@@ -110,3 +110,348 @@
 .dfp-two-des {
     padding-top: 5px;
 }
+
+
+
+
+
+
+/*cta module */
+
+.cta-module-sec-inner {
+    background: #0084A9;
+    border-radius: 20px;
+    background-image: url(../images/cta-module-bg.png);
+}
+
+.cta-module-sec-des {
+    padding-top: 70px;
+    padding-bottom: 65px;
+    max-width: 710px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.cta-module-title {
+    color: #fff;
+}
+
+.cta-module-sec-des p {
+    color: #fff;
+}
+.cta-module-sec-btn a {
+    border-color: #fff;
+    color: #fff;
+}
+.cta-module-sec-btn a:nth-child(1){
+    margin-right: 22px;
+}
+.cta-module-sec-btn {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+.blockquote-des {
+    max-width: 970px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 29px;
+    font-weight: 300;
+    text-align: center;
+}
+.blockquote-sec-cntlr {
+    text-align: center;
+    padding-bottom: 70px;
+    padding-top: 100px;
+    border-bottom: 1px solid #F3F3F3;
+}
+.blockquote-des strong {
+    font-weight: 600;
+    font-size: 16px;
+}
+.footer-top-module-des {
+    border-radius: 20px;
+    background: #002544;
+    color: #fff;
+    padding-left: 45px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 45px;
+    background-image: url(../images/footer-top-module.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.footer-top-title {
+    color: #fff;
+    text-transform: capitalize;
+}
+.footer-top-module-btm a:not(:last-child){
+    margin-right: 16px;
+}
+.footer-top-module-des strong {
+    font-weight: 600;
+    display: inline-block;
+}
+.footer-top-module-btm a {
+    min-width: 138px;
+}
+
+
+
+
+/*our-team sec*/
+
+.sec-entry-hdr {
+    max-width: 848px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.our-team-grd-img {
+    height: 290px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 23px;
+}
+
+.our-team-grd-img-div {
+    width: 100%;
+    height: 100%;
+}
+.our-team-grd {
+    padding: 0 9px;
+}
+.our-team-grids {
+    margin: 0 -9px;
+    padding-bottom: 30px;
+}
+.our-team-grd-title {
+    margin-bottom: 3px;
+    text-transform: capitalize;
+}
+.our-team-grd-des span {
+    font-size: 14px;
+    color: #616268;
+}
+.our-team-sec {
+    padding-top: 120px;
+    padding-bottom: 150px;
+}
+.our-team-grd-des {
+    padding-bottom: 5px;
+}
+.our-team-sec-btn{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*news-sec*/
+.news-sec {
+    background: #F3F8FA;
+    padding-bottom: 99px;
+    padding-top: 99px;
+    background-image: url(../images/news-sec-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+}
+.news-sec-grd-item {
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.news-sec-grd-item-des {
+    position: relative;
+    padding-top: 65px;
+    padding-left: 29px;
+    padding-right: 29px;
+    padding-bottom: 40px;
+}
+.news-sec-grd {
+    padding: 0 9px;
+}
+
+.news-sec-grds {
+    margin: 0 -9px;
+    margin-bottom: 35px;
+}
+.news-sec-grd-item-des p {
+    font-size: 14px;
+    line-height: 1.7;
+}
+.news-grd-title{
+    line-height: 1.33;
+}
+.news-grd-title a {
+    text-decoration: none;
+    color: #2E3044;
+}
+.news-grd-title a:hover{
+    color: #0084A9;
+}
+
+.news-grd-title{
+    margin-bottom: 23px;
+}
+.news-sec-btn {
+    text-align: center;
+}
+.news-published {
+    width: 76px;
+    height: 76px;
+    background: #0084A9;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 27px;
+    position: absolute;
+    top: -39px;
+    left: 29px;
+}
+
+.news-published strong {
+    display: inline-block;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.news-published span {
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+}
+.news-sec-grds .slick-list{
+    overflow: initial!important;
+}
+.news-sec-cntlr .sec-entry-hdr{
+    padding-bottom: 65px;
+}
+.news-grd-btn a:hover svg {
+    transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    -webkit-transform: translateX(10px);
+}
+
+
+
+/*expertise sec*/
+
+.expertise-grd-img i {
+    vertical-align: baseline;
+    width: 150px;
+    height: 150px;
+    background-color: #F3F8FA;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.expertise-grd-img i:hover img {
+    transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+.expertise-grd-img i img {
+    width: auto;
+    max-height: 60px;
+}
+.expertise-grd-sec-des{
+    text-align: center;
+}
+.expertise-grd-img {
+    margin-bottom: 30px;
+}
+.expertise-sec-cntlr {
+    padding-top: 115px;
+}
+.expertise-grd-item{
+    padding:0 9px;
+    position: relative;
+}
+.expertise-sec-grds {
+    margin: 0 -9px;
+    padding-bottom: 111px;
+}
+.expertise-sec-grds .slick-track {
+    border-bottom: 1px solid #F3F3F3;
+}
+.expertise-grd-item-inner {
+    padding-bottom: 30px;
+}
+.expertise-sec-grds .slick-list .expertise-grd-item.slick-current:after {
+    content: "";
+    position: absolute;
+    width: 85px;
+    height: 4px;
+    background: #0084A9;
+    left: 50%;
+    transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    bottom: -3px;
+}
+.expertise-sec-grds .slick-list.draggable {
+    padding-bottom: 4px;
+}
+.expertise-sec-cntlr .sec-entry-hdr {
+    padding-bottom: 35px;
+}
+.blockquote-img {
+    max-width: 93px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.blockquote-des p {
+    line-height: 1.4;
+}
+.blockquote-slider-sec .blockquote-des {
+    max-width: 890px;
+}
+.fl-next i,
+.fl-prev i{
+    display: inline-block;
+    vertical-align: baseline;
+    cursor: pointer;
+}
+.fl-prev{
+    margin-right: 35px;
+    cursor: pointer;
+}
+.blockquote-arrow {
+    padding-top: 10px;
+}
+
+
+@media(max-width: 1499px){
+    .news-sec {
+       background-position: left -100px top 0;
+    }
+}

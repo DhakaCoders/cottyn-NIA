@@ -564,7 +564,164 @@ if (windowWidth <= 991) {
     });
 
 }
-
+  if( $('.ourTeamSlider').length ){
+    $('.ourTeamSlider').slick({
+      dots: false,
+      arrows: true,
+      infinite: false,
+      autoplay: false,
+      autoplaySpeed: 4000,
+      speed: 700,
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      responsive: [
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              dots: true
+            }
+          },
+          {
+            breakpoint:480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              dots: true
+            }
+          }
+        ]
+    });
+  }
+    if( $('.newsSlider').length ){
+    $('.newsSlider').slick({
+      dots: false,
+      arrows: true,
+      infinite: false,
+      autoplay: false,
+      autoplaySpeed: 4000,
+      speed: 700,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      responsive: [
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              dots: true
+            }
+          },
+          {
+            breakpoint:480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              dots: true
+            }
+          }
+        ]
+    });
+  }
+      if( $('.exprtSlider').length ){
+    $('.exprtSlider').slick({
+      dots: false,
+      arrows: false,
+      infinite: false,
+      autoplay: false,
+      autoplaySpeed: 4000,
+      speed: 700,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      responsive: [
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              dots: true
+            }
+          },
+          {
+            breakpoint:480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              dots: true
+            }
+          }
+        ]
+    });
+  }
+if( $('.blockquoteSlider').length ){
+    $('.blockquoteSlider').slick({
+      dots: false,
+      arrows: true,
+      infinite: false,
+      autoplay: false,
+      autoplaySpeed: 4000,
+      speed: 700,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      prevArrow: $('.blockquote-arrow .fl-prev-next .fl-prev'),
+      nextArrow: $('.blockquote-arrow .fl-prev-next .fl-next'),
+      responsive: [
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              dots: true
+            }
+          },
+          {
+            breakpoint:480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              dots: true
+            }
+          }
+        ]
+    });
+  }
 new WOW().init();
 
 })(jQuery);
